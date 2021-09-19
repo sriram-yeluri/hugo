@@ -1,5 +1,5 @@
 # hugo 0.79.1
-Repository created to build docker image with hugo for static site generation
+Repository for hugo docker image for static site generation
 
 ## Building the image
 
