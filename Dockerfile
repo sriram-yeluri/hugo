@@ -6,7 +6,7 @@ RUN apt-get -qq update \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Configuration variables
-ENV HUGO_VERSION 0.79.1
+ENV HUGO_VERSION 0.128.2
 
 # Using the extended release of Hugo, which contains support for Sass/SCSS.
 ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
